@@ -52,7 +52,7 @@ stages {
             subject: "Pipeline Succeeded.",
             body: "Pipeline Succeeded. See attached details.",
             attachLog: true,
-            to: "s221303109@deakin.edu.au"
+            to: "christ.youyou@gmail.com"
             )
          }
          failure{
@@ -60,7 +60,7 @@ stages {
             subject: "Pipeline Failed.",
             body: "Pipeline Failed. See attached details.",
             attachLog: true,
-            to: "s221303109@deakin.edu.au"
+            to: "christ.youyou@gmail.com"
             )
          }
     }
